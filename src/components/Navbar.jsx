@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <header>
       <nav className="container flex items-center py-4 mt-4 sm:mt-12">
-        <div className="py-1"><Link to="/"><img className="w-1/6 h-1/6" src="./images/sadd-trans.png" alt="logo" /></Link></div>
+        <div className="py-1"><Link to="/"><img className="w-1/6 h-1/6" src="../../images/sadd-trans.png" alt="logo" /></Link></div>
         <ul className="hidden sm:flex flex-1 justify-end items-center gap-12 text-bookmark-blue uppercase text-xs">
           <Link to="/club" className="cursor-pointer">Club</Link>
           <Link to="/initiatives" className="cursor-pointer">Initiatives</Link>

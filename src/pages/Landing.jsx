@@ -30,7 +30,7 @@ const Landing = () => {
 
           {/* Image */}
           <div className="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10">
-            <img className="lg:w-full h-full sm:w-3/4 sm:h-3/4 md:w-3/5 md:h-3/5" src="./images/sign.png" alt="" />
+            <img className="lg:w-full h-full sm:w-3/4 sm:h-3/4 md:w-3/5 md:h-3/5" src="../../images/sign.png" alt="" />
           </div>
 
           {/* Rounded Rectangle */}
