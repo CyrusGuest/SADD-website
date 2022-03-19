@@ -13,8 +13,9 @@ const Footer = () => {
           </ul>
         </div>
         <ul className="flex gap-10 mt-12 md:mt-0">
-          <li className=""><i className="text-sadd-blue text-3xl fab fa-twitter"></i></li>
-          <li><i className="text-sadd-blue text-3xl fab fa-facebook-square"></i></li>
+          <a href="https://twitter.com/SADDnation?s=20" target="_blank" ><li className=""><i className="text-sadd-blue text-3xl fab fa-twitter"></i></li></a>
+          <a href="https://www.facebook.com/saddnation/" target="_blank" ><li><i className="text-sadd-blue text-3xl fab fa-facebook-square"></i></li></a>
+          <a href="https://www.instagram.com/saddnation/" target="_blank" ><li><i className="text-sadd-blue text-3xl fab fa-instagram"></i></li></a>
         </ul>
       </div>
     </footer>

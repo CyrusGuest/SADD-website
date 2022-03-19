@@ -6,12 +6,17 @@ const Navbar = () => {
   return (
     <header>
       <nav className="container flex items-center py-4 mt-4 sm:mt-12">
-        <div className="py-1"><Link to="/"><img className="w-1/6 h-1/6" src={TransparentLogo} alt="logo" /></Link></div>
+        <div className="py-1">
+          <Link className='flex items-center' to="/">
+            <img className="w-1/6 h-1/6" src={TransparentLogo} alt="logo" />
+            <p className='text-2xl px-3 text-sadd-grey'>NHS Chapter</p>
+          </Link>
+        </div>
         <ul className="hidden sm:flex flex-1 justify-end items-center gap-12 text-bookmark-blue uppercase text-xs">
           <Link to="/club" className="cursor-pointer">Club</Link>
           <Link to="/initiatives" className="cursor-pointer">Initiatives</Link>
           <Link to="/safe-driving" className="cursor-pointer">Safe Driving</Link>
-          <button type="button" className="bg-sadd-blue text-white rounded-md px-7 py-3 uppercase">Contact</button>
+          <a href="mailto:afinkel@nps.org"><button type="button" className="bg-sadd-blue text-white rounded-md px-7 py-3 uppercase">Contact</button></a>
         </ul>
         <div className="flex sm:hidden flex-1 justify-end">
           <i className="fas fa-bars text-xl"></i>
