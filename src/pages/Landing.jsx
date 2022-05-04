@@ -24,8 +24,8 @@ const Landing = () => {
               Motor vehicle crashes are the second leading cause of death for U.S. teens. Our goal is to motivate students to drive safely, and educate them how to effectively.
             </p>
             <div className="flex justify-center flex-wrap gap-6">
-              <a href="https://docs.google.com/presentation/d/1rCkQz9q5PJLItLvlYGoQqf2go3fWMLdacfjJykXQ1fQ/edit?usp=sharing" target="_blank" ><button className="btn btn-purple hover:bg-sadd-white hover:text-black">Our Mission</button></a>
-              <Link to="/safe-driving" className="btn btn-white hover:bg-sadd-blue hover:text-white">Learn More</Link>
+              <Link className="btn btn-purple hover:bg-sadd-white hover:text-black" to="/safe-driving" >Our Mission</Link>
+              <a href="https://www.sadd.org/passporttosafedriving" target="_blank" ><button className="btn btn-white hover:bg-sadd-blue hover:text-white">Learn More</button></a>
             </div>
           </div>
 
