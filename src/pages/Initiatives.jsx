@@ -27,8 +27,8 @@ const Initiatives = () => {
             the benefits of seat belt use, the growing epidemic of distracted driving, 
             and much more. </p>
 
-          <p>To learn more about NHS SADD's safe driving initiative, visit our 
-            presentation <a className='underline text-sadd-blue' target="_blank" href='https://docs.google.com/presentation/d/1rCkQz9q5PJLItLvlYGoQqf2go3fWMLdacfjJykXQ1fQ/edit?usp=sharing'>here</a>.</p>
+          <p>To learn more about NHS SADD's safe driving initiative, visit the safe  
+            driving passport <a className='underline text-sadd-blue' target="_blank" href='https://www.sadd.org/passporttosafedriving'>here</a>.</p>
 
           <h3 className='text-3xl text-sadd-blue font-bold'>Mental health</h3>
           <p>The importance of mental health, especially in teenagers, cannot be overstated. 
@@ -56,8 +56,7 @@ const Initiatives = () => {
             where the behavioral norms are not tolerant of abuse in dating relationships. 
             The message must be clear that treating people in abusive ways will not be accepted, 
             and policies must enforce this message to keep students safe.</p>
-          <p>To learn more about NHS SADD's dating violence prevention initiative, visit our 
-            presentation <a className='underline text-sadd-blue' target="_blank" href='https://docs.google.com/presentation/d/1Bnl1BZjJQVFD0Joy3OzNX2cy79tZafLtfi8t7cNEHJ8/edit?usp=sharing'>here</a>.
+          <p>To learn more about dating violence prevention, visit <a className='underline text-sadd-blue' target="_blank" href='https://www.new-hope.org/'>here</a>.
           </p>
           
         </div>
