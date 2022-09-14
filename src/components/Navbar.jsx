@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className="py-1">
           <Link className='flex items-center' to="/">
             <img className="w-1/6 h-1/6" src={TransparentLogo} alt="logo" />
-            <p className='text-2xl px-3 text-sadd-grey'>NHS Chapter</p>
+            <p className='text-2xl px-3 text-sadd-grey'>HJSHS Chapter</p>
           </Link>
         </div>
         <ul className="hidden sm:flex flex-1 justify-end items-center gap-12 text-bookmark-blue uppercase text-xs">

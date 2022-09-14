@@ -8,8 +8,8 @@ const Club = () => {
     <div className='font-Poppins'>
       <Navbar />
       <div className="container flex flex-col text-center lg:text-left gap-6 mt-14 lg:mt-20">
-        <h1 className='text-6xl font-bold'>Northbridge Chapter of SADD</h1>
-        <h6 className='text-sadd-grey'>By NHS SADD, <Link to="/sources" className='underline' >Sources</Link></h6>
+        <h1 className='text-6xl font-bold'>HJSHS Chapter of SADD</h1>
+        <h6 className='text-sadd-grey'>By HJSHS SADD, <Link to="/sources" className='underline' >Sources</Link></h6>
         <hr className='divide-sadd-blue'></hr>
         <div className='flex flex-col gap-10 text-lg mx-5'>
           <h3 className='text-3xl text-sadd-blue font-bold'>What is SADD?</h3>
@@ -32,8 +32,8 @@ const Club = () => {
           <p>As a parent and/or adult ally, you play a large role in the health and safety of 
             the youth in your life. Be proactive by getting involved and using the resources 
             below to facilitate meaningful dialogue with your student. </p>
-          <p>As an NHS student, you can join SADD by contacing Mr. Finkel either in person or at his email
-            address, afinkel@nps.org. </p>
+          <p>As an HJSHS student, you can join SADD by contacing Cyrus Guest either in person or at his email
+            address, guestc24@hopedaleschools.org. </p>
         </div>
         
       </div>

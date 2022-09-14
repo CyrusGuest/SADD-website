@@ -9,7 +9,7 @@ const SafeDriving = () => {
       <Navbar />
       <div className="container flex flex-col text-center lg:text-left gap-6 mt-14 lg:mt-20">
         <h1 className='text-6xl font-bold'>Safe Driving</h1>
-        <h6 className='text-sadd-grey'>By NHS SADD, <Link to="/sources" className='underline' >Sources</Link></h6>
+        <h6 className='text-sadd-grey'>By HJSHS SADD, <Link to="/sources" className='underline' >Sources</Link></h6>
         <hr className='divide-sadd-blue'></hr>
         <div className='flex flex-col gap-10 text-lg mx-5'>
           <h3 className='text-3xl text-sadd-blue font-bold'>The statistics</h3>
