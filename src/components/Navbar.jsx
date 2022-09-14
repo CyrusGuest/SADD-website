@@ -18,7 +18,7 @@ const Navbar = () => {
           <Link to="/club" className="cursor-pointer">Club</Link>
           <Link to="/initiatives" className="cursor-pointer">Initiatives</Link>
           <Link to="/safe-driving" className="cursor-pointer">Safe Driving</Link>
-          <a href="mailto:afinkel@nps.org"><button type="button" className="bg-sadd-blue text-white rounded-md px-7 py-3 uppercase">Contact</button></a>
+          <a href="mailto:guestc24@hopedaleschools.org"><button type="button" className="bg-sadd-blue text-white rounded-md px-7 py-3 uppercase">Contact</button></a>
         </ul>
         <div className="flex sm:hidden flex-1 justify-end">
           <i onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="fas fa-bars text-xl"></i>
