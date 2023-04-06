@@ -26,7 +26,7 @@ const Landing = () => {
             <div className="flex justify-center flex-wrap gap-6">
               <Link
                 className="btn btn-purple hover:bg-sadd-white hover:text-black"
-                to="/safe-driving"
+                to="/key-events"
               >
                 Key Events
               </Link>

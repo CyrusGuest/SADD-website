@@ -7,8 +7,8 @@ const Navbar = () => {
 
   return (
     <header>
-      <nav className="container flex items-center py-4 mt-4 sm:mt-12">
-        <div className="py-1">
+      <nav className="container flex items-center py-4 sm:mt-12">
+        <div>
           <Link className="flex items-center" to="/">
             <img className="w-1/6 h-1/6" src={Logo} alt="logo" />
             <p className="text-2xl px-3 text-sadd-grey">EPM</p>

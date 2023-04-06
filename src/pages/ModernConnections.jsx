@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import { Link } from "react-router-dom";
 
-const Initiatives = () => {
+const ModernConnections = () => {
   return (
     <div className="font-Poppins">
       <Navbar />
@@ -35,7 +35,7 @@ const Initiatives = () => {
             <a
               className="underline text-sadd-blue"
               target="_blank"
-              href="https://grist.org/politics/the-biden-administration-is-taking-a-new-approach-to-environmental-justice-will-it-make-a-difference/"
+              href="https://grist.org/beacon/bidens-new-strategy-for-environmental-justice/"
             >
               here
             </a>
@@ -58,7 +58,7 @@ const Initiatives = () => {
             <a
               className="underline text-sadd-blue"
               target="_blank"
-              href="https://www.theguardian.com/environment/2020/feb/25/climate-change-already-damaging-health-of-millions-globally-report-finds"
+              href="https://www.theguardian.com/environment/2017/oct/30/climate-change-already-damaging-health-of-millions-globally-report-finds"
             >
               here
             </a>
@@ -71,4 +71,4 @@ const Initiatives = () => {
   );
 };
 
-export default Initiatives;
+export default ModernConnections;
